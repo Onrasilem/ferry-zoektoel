@@ -3,7 +3,7 @@ import pandas as pd
 
 # 📥 Excelbestand inlezen
 try:
-    df = pd.read_excel("routes.xlsx")
+    df = pd.read_excel("Routes.xlsx")
 except FileNotFoundError:
     st.error("❌ Het bestand 'routes.xlsx' werd niet gevonden. Zorg dat het in dezelfde map staat als dit script.")
     st.stop()
